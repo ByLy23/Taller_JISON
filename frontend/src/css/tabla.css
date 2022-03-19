@@ -1,0 +1,64 @@
+.table-container {
+  width: 39em;
+  height: auto;
+  padding: 1em;
+  background: linear-gradient(180deg, rgba(239, 239, 239, 0.7) 0%, rgba(239, 239, 239, 0.3) 100%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 1em;
+  margin: auto;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.table-container1 {
+  width: 70%;
+  height: auto;
+  padding: 1em;
+  background: linear-gradient(180deg, rgba(239, 239, 239, 0.7) 0%, rgba(239, 239, 239, 0.3) 100%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 1em;
+  margin: auto;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.table {
+  margin: auto;
+  line-height: 2em;
+  width: 100%;
+  table-layout: fixed;
+  text-align: justify;
+  border: solid 1px;
+}
+.table th,
+.table td {
+  padding-left: 0.5em;
+  word-wrap: break-word;
+}
+.table .second {
+  width: 8%;
+  font-size: 0.72em;
+}
+.table .first {
+  width: 60%;
+}
+.table td {
+  font-size: 0.8em;
+}
+@media (max-width: 800px) {
+  .table-container {
+    width: 90%;
+  }
+  .table .second,
+  .table .first {
+    width: auto;
+  }
+  .table th,
+  .table td {
+    word-wrap: normal;
+  }
+}
+.graph {
+  width: 100%;
+  margin: auto;
+}

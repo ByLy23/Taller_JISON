@@ -1,0 +1,48 @@
+.card {
+  width: 39em;
+  height: 15em;
+  background: linear-gradient(180deg, rgba(239, 239, 239, 0.7) 0%, rgba(239, 239, 239, 0.3) 100%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 1em;
+  margin: auto;
+  color: white;
+}
+.card .card-header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  padding-right: 1em;
+}
+.card .card-header .nombre {
+  font-size: 2.5em;
+}
+.card .card-header .carnet {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+a {
+  color: white;
+}
+ul li {
+  list-style: none;
+  padding-left: 2em;
+  line-height: 1.4em;
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+  }
+  .card .card-header .nombre {
+    font-size: 1.3em;
+  }
+  .card .card-header .carnet {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  .card-contact {
+    font-size: 0.8em;
+  }
+}

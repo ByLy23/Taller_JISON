@@ -1,0 +1,50 @@
+{
+  "name": "proyecto-jolc",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@uiw/react-codemirror": "^3.1.0",
+    "codemirror": "^5.62.2",
+    "d3-graphviz": "^4.0.0",
+    "express": "^4.17.1",
+    "graphviz-react": "^1.2.0",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "dev": "react-scripts --max_old_space_size=4096 start",
+    "start": "serve -s build",
+    "build": "react-scripts --max_old_space_size=4096 build",
+    "test": "react-scripts test",
+    "heroku-postbuild": "npm run build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

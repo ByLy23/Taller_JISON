@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(90deg, #141d2f 0%, #243b55 100%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    font-size: 16px;
+  }
+}
